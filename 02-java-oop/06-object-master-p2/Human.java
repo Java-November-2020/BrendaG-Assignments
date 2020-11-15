@@ -11,7 +11,7 @@ class Human {
     }
 
     public int displayHealth(){
-        System.out.println("Health is currently:" + this.health);
+        System.out.println("Health is currently: " + this.health);
         return this.health;
     }
 

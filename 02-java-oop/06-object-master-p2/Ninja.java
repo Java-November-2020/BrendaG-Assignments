@@ -10,7 +10,7 @@ class Ninja extends Human{
     } 
     public int runAway() {
         this.health -= 10;
-        System.out.println("Ninja has ran away, health has gone down by 10." );
+        System.out.printf("Ninja has ran away, health has gone down by 10." );
         return this.health;
     }
 }
