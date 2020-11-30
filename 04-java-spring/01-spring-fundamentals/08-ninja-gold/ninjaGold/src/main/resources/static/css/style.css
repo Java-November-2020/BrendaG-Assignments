@@ -1,33 +1,35 @@
-body {
-	background-color: #efefef;
+@charset "UTF-8";
 
+body{
+	background-color:gold;
 }
-
-.building {
-	min-height: 200px;
-	min-width: 200px;
-	text-align: center;
-	border: 2px solid black;
+.structure{
+	background-color:white;
 	display: inline-block;
-}
-
-h3 {
-	margin-top: 30px
-}
-
-.activities {
-	margin-top: 50px;
-	width: 800px;
-	overflow-y: scroll;
+	padding:20px;
 	border: 2px solid black;
-	min-height: 200px;
-	max-heigh: 200px;
+	text-align:center;
+	margin:80px 0px 0px 100px;
 }
 
-.red {
-	color: red;
+.red{
+	color:red;
 }
 
-.green {
-	color: green;
+.green{
+	color:green;
+}
+
+.activities{
+	margin:20px 0px 0px 250px;
+  background:white;
+  padding: 15px;
+  width: 50%;
+  height: 300px;
+  overflow: scroll;
+  border: 1px solid #ccc;
+}
+
+h1{
+	margin:20px 0px 0px 200px;
 }

@@ -1,4 +1,4 @@
-package com.ninjaGold.matthew;
+package com.brenda.ninjagold;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
